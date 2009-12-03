@@ -14,15 +14,15 @@
 // 
 // You can find all of this information in your App Profile
 
-#define kApplicationId @"823d5020-abda-012c-5049-12313b022d84"
-#define kApplicationSecret @"800hi3g7irxlrt8r9zpsh"
+#define kApplicationId @"aeab0920-b630-012c-504d-12313b022d84"
+#define kApplicationSecret @"ltsj4yo3t9rlsbhvlnpry"
 
 // ***IMPORTANT***
 // This is the URL of the AppNotify server
 // You have the option of either using HTTPS to secure your application id and secret, or use HTTP the less secure but
 // much faster alternative.
-#define kANServer @"https://api.appnotify.com"
-//#define kANServer @"http://api.appnotify.com"
+//define kANServer @"https://api.appnotify.com"
+#define kANServer @"http://api.appnotify.com"
 
 @interface AppNotifyProxy : NSObject {
 	NSOperationQueue *operationQueue;

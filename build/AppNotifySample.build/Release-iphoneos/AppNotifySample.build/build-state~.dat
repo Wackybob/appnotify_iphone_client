@@ -1,0 +1,1247 @@
+TAppNotifySample
+v7
+r0
+t281571125.560937
+cCheck dependencies
+cCpResource build/Release-iphoneos/AppNotifySample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Info.plist AppNotifySample-Info.plist
+cCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib
+cCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib
+cCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib
+cCpResource build/Release-iphoneos/AppNotifySample.app/logo.jpg Images/logo.jpg
+cCpResource build/Release-iphoneos/AppNotifySample.app/nav-bg.jpg Images/nav-bg.jpg
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register.png Images/register.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png Images/sendPushNotification.png
+cCpResource build/Release-iphoneos/AppNotifySample.app/button-bg.jpg Images/button-bg.jpg
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register_down.png Images/register_down.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png Images/sendPushNotification_down.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back_down.png Images/back_down.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back.png Images/back.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send_down.png Images/send_down.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send.png Images/send.png
+cCpResource build/Release-iphoneos/AppNotifySample.app/README-LICENSE README-LICENSE
+cCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib
+cCpResource build/Release-iphoneos/AppNotifySample.app/Hammering.wav Hammering.wav
+cCpResource build/Release-iphoneos/AppNotifySample.app/PillBottle.wav PillBottle.wav
+cCpResource build/Release-iphoneos/AppNotifySample.app/Telephone.wav Telephone.wav
+cCpResource build/Release-iphoneos/AppNotifySample.app/WhistleFlute.wav WhistleFlute.wav
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound_down.png Images/sound_down.png
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound.png Images/sound.png
+cCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib
+cCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon.png icon.png
+cProcessPCH /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch.gch AppNotifySample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/main.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleAppDelegate.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/Reachability.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIAuthenticationDialog.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIFormDataRequest.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIHTTPRequest.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIInputStream.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINetworkQueue.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINSStringAdditions.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/NSData+Base64.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendNotificationViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifyProxy.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SelectSoundViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendingViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample normal armv6
+cGenerateDSYMFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app.dSYM /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample
+cProcessProductPackaging "/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision
+cTouch /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent
+cCodeSign /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004ABDBC03000000000000E37C
+t1253948419
+s58236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004ABDBCDC0000000000290670
+t1253948636
+s2688624
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004ABDBC2B00000000000004CF
+t1253948459
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004ABDBB6A00000000000035EC
+t1253948266
+s13804
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDBB690000000000001A78
+t1253948265
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDBB7700000000000D7460
+t1253948279
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/arpa/inet.h
+c000000004ABDAF5B0000000000001533
+t1253945179
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/ifaddrs.h
+c000000004ABDAF660000000000000782
+t1253945190
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netdb.h
+c000000004ABDAF8C0000000000003057
+t1253945228
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet/in.h
+c000000004ABDB473000000000000535B
+t1253946483
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet6/in6.h
+c000000004ABDB4740000000000004F5B
+t1253946484
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/stdio.h
+c000000004ABDAF790000000000003D1D
+t1253945209
+s15645
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
+c000000004ABDB4790000000000005660
+t1253946489
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/zlib.h
+c000000004ABDB4BA00000000000102A5
+t1253946554
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004ABDB4BC00000000000335C0
+t1253946556
+s210368
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib
+c000000004AED327E00000000000088E3
+t1257058942
+s35043
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySample_Prefix.pch
+c000000004AED327E00000000000000F4
+t1257058942
+s244
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.h
+c000000004AE37359000000000000034F
+t1256420185
+s847
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m
+c000000004AE3735900000000000020EB
+t1256420185
+s8427
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.h
+c000000004AE3735900000000000005FF
+t1256420185
+s1535
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m
+c000000004AE373590000000000001DC3
+t1256420185
+s7619
+i"ASIFormDataRequest.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.h
+c000000004AE3735900000000000065A3
+t1256420185
+s26019
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m
+c000000004AE37359000000000001A63A
+t1256420185
+s108090
+i"ASIHTTPRequest.h"
+i<zlib.h>
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.h
+c000000004AE3735900000000000002E2
+t1256420185
+s738
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m
+c000000004AE373590000000000000CA2
+t1256420185
+s3234
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.h
+c000000004AE373590000000000000144
+t1256420185
+s324
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m
+c000000004AE3735900000000000002DC
+t1256420185
+s732
+i"ASINSStringAdditions.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.h
+c000000004AE373590000000000001223
+t1256420185
+s4643
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m
+c000000004AE373590000000000002717
+t1256420185
+s10007
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.h
+c000000004B182E680000000000000817
+t1259875944
+s2071
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m
+c000000004AF4C3B30000000000000ECE
+t1257554867
+s3790
+i"AppNotifyProxy.h"
+i"ASIHTTPRequest.h"
+i"AppNotifySampleAppDelegate.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.h
+c000000004AF6FD680000000000000534
+t1257700712
+s1332
+i<UIKit/UIKit.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m
+c000000004AF6FD6800000000000013C1
+t1257700712
+s5057
+i"AppNotifySampleAppDelegate.h"
+i"AppNotifySampleViewController.h"
+i"SendNotificationViewController.h"
+i"SelectSoundViewController.h"
+i"NSData+Base64.h"
+i"ASIHTTPRequest.h"
+i"AppNotifyProxy.h"
+i<AudioToolbox/AudioServices.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.h
+c000000004AEE08870000000000000387
+t1257113735
+s903
+i<UIKit/UIKit.h>
+i"AppNotifySampleAppDelegate.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m
+c000000004AF6FD7E0000000000000C8D
+t1257700734
+s3213
+i"AppNotifySampleViewController.h"
+i"AppNotifySampleAppDelegate.h"
+i"ASIFormDataRequest.h"
+i"SendNotificationViewController.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.h
+c000000004AE373590000000000000379
+t1256420185
+s889
+i<Foundation/Foundation.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m
+c000000004AE373590000000000001FA7
+t1256420185
+s8103
+i"NSData+Base64.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.h
+c000000004AE3735900000000000013B4
+t1256420185
+s5044
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m
+c000000004AE373590000000000005B34
+t1256420185
+s23348
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.h
+c000000004AF6F3460000000000000398
+t1257698118
+s920
+i<UIKit/UIKit.h>
+i"AppNotifySampleAppDelegate.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m
+c000000004AFDCC170000000000000BD7
+t1258146839
+s3031
+i"SelectSoundViewController.h"
+i"SendNotificationViewController.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.h
+c000000004AFCB4A5000000000000038D
+t1258075301
+s909
+i<UIKit/UIKit.h>
+i"AppNotifySampleAppDelegate.h"
+i"SendingViewController.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m
+c000000004B181F39000000000000134E
+t1259872057
+s4942
+i"SendNotificationViewController.h"
+i"AppNotifySampleAppDelegate.h"
+i"ASIFormDataRequest.h"
+i"AppNotifySampleViewController.h"
+i"SelectSoundViewController.h"
+i"SendingViewController.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.h
+c000000004AFCB4A500000000000000F9
+t1258075301
+s249
+i<UIKit/UIKit.h>
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m
+c000000004AFCB4A500000000000005FE
+t1258075301
+s1534
+i"SendingViewController.h"
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Hammering.wav
+c000000004AF6F8340000000000090048
+t1257699380
+s589896
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Icon.png
+c000000004B1761D40000000000000591
+t1259823572
+s1425
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back.png
+c000000004AED327E00000000000013BF
+t1257058942
+s5055
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back_down.png
+c000000004AED327E0000000000001526
+t1257058942
+s5414
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/button-bg.jpg
+c000000004AEC9789000000000000026F
+t1257019273
+s623
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/icon_small.png
+c000000004AF70E8C000000000000118F
+t1257705100
+s4495
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/logo.jpg
+c000000004AEC978900000000000024C3
+t1257019273
+s9411
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/nav-bg.jpg
+c000000004AEC9789000000000000023B
+t1257019273
+s571
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register.png
+c000000004AEC9789000000000000213E
+t1257019273
+s8510
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register_down.png
+c000000004AEC97890000000000002462
+t1257019273
+s9314
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send.png
+c000000004AED327E0000000000001428
+t1257058942
+s5160
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification.png
+c000000004AEC978900000000000024A1
+t1257019273
+s9377
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification_down.png
+c000000004AEC978900000000000027B5
+t1257019273
+s10165
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send_down.png
+c000000004AED327E00000000000015A8
+t1257058942
+s5544
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound.png
+c000000004AF707B90000000000001B60
+t1257703353
+s7008
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound_down.png
+c000000004AF707B90000000000001D21
+t1257703353
+s7457
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib
+c000000004AE373590000000000005485
+t1256420185
+s21637
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/PillBottle.wav
+c000000004AF6F834000000000003F048
+t1257699380
+s258120
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/README-LICENSE
+c000000004AED327E000000000000069C
+t1257058942
+s1692
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib
+c000000004AF3BF9A00000000000054F2
+t1257488282
+s21746
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib
+c000000004AFDCC170000000000008D1C
+t1258146839
+s36124
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib
+c000000004AFDCC1700000000000046B4
+t1258146839
+s18100
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Telephone.wav
+c000000004AF6F8340000000000045048
+t1257699380
+s282696
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/WhistleFlute.wav
+c000000004AF6F834000000000005E048
+t1257699380
+s385096
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent
+t1259878325
+s394
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+t1259878316
+s71132
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIFormDataRequest.o
+t1259878317
+s35948
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIHTTPRequest.o
+t1259878324
+s279644
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIInputStream.o
+t1259878317
+s20456
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINSStringAdditions.o
+t1259878318
+s9260
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINetworkQueue.o
+t1259878318
+s52648
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifyProxy.o
+t1259878318
+s23164
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySample.LinkFileList
+c000000004B1837A60000000000000B48
+t1259878310
+s2888
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleAppDelegate.o
+t1259878316
+s67308
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleViewController.o
+t1259878316
+s56616
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/NSData+Base64.o
+t1259878318
+s13444
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/Reachability.o
+t1259878316
+s43484
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SelectSoundViewController.o
+t1259878318
+s51324
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendNotificationViewController.o
+t1259878318
+s61784
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendingViewController.o
+t1259878318
+s29540
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/main.o
+t1259878316
+s6728
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+t1259878325
+s1122
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app.dSYM
+t1259878325
+s102
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample
+t1259878325
+s219288
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySampleViewController.nib
+t1259878313
+s5768
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Hammering.wav
+t1259878314
+s589896
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Icon.png
+t2
+s0
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Info.plist
+t1259878310
+s716
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/MainWindow.nib
+t1259878313
+s1580
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/PillBottle.wav
+t1259878314
+s258120
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/PkgInfo
+t1259878310
+s8
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/README-LICENSE
+t1259878313
+s1692
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/ResourceRules.plist
+t1259878310
+s485
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SelectSoundViewController.nib
+t1259878314
+s2235
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SendNotificationViewController.nib
+t1259878313
+s5880
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SendingView.nib
+t1259878314
+s1920
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Telephone.wav
+t1259878314
+s282696
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/WhistleFlute.wav
+t1259878314
+s385096
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back.png
+t1259878313
+s5534
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back_down.png
+t1259878313
+s6276
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/button-bg.jpg
+t1259878313
+s623
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision
+t1259878325
+s15826
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon.png
+t1259878314
+s2096
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon_small.png
+t1259872782
+s4838
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/logo.jpg
+t1259878313
+s9411
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/nav-bg.jpg
+t1259878313
+s571
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register.png
+t1259878313
+s9503
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register_down.png
+t1259878313
+s10507
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send.png
+t1259878313
+s5718
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png
+t1259878313
+s10403
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png
+t1259878313
+s11461
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send_down.png
+t1259878313
+s6368
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound.png
+t1259878314
+s7615
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound_down.png
+t1259878314
+s8091
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/icon.png
+c000000004B1761D40000000000000591
+t1259823572
+s1425
+
+N/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m
+c000000004AED327E000000000000017B
+t1257058942
+s379
+i<UIKit/UIKit.h>
+
+N/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision
+c000000004B1821AB0000000000003DD2
+t1259872683
+s15826
+
+N/var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch.gch
+t1259878315
+s7700664
+
+NAppNotifySample-Info.plist
+c000000004AF70E8C0000000000000391
+t1257705100
+s913
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281571110#281571110#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+s281571125.178509
+e281571125.560888
+r1
+xCodeSign
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+lSLF07#2@51"CodeSign build/Release-iphoneos/AppNotifySample.app281571125#281571125#0(0"0(0#0#125"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app4300885448#869"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Adam McNamara (E2722XCQN6)" --resource-rules=/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/ResourceRules.plist --entitlements /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIAuthenticationDialog.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571116.359746
+e281571116.870392
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m281571116#281571116#0(0"0(0#0#116"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m4300885448#2453"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIAuthenticationDialog.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIAuthenticationDialog.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIFormDataRequest.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571116.870540
+e281571117.246916
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIFormDataRequest.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m281571116#281571117#0(0"0(0#0#111"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m4300885448#2443"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIFormDataRequest.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIFormDataRequest.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIHTTPRequest.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571116.898651
+e281571124.875974
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIHTTPRequest.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m281571116#281571124#0(0"0(0#0#107"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m4300885448#2435"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIHTTPRequest.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIHTTPRequest.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIInputStream.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571117.247029
+e281571117.400969
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIInputStream.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m281571117#281571117#0(0"0(0#0#107"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m4300885448#2435"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASIInputStream.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASIInputStream.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINSStringAdditions.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.005854
+e281571118.068972
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINSStringAdditions.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m281571118#281571118#0(0"0(0#0#113"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m4300885448#2447"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINSStringAdditions.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINSStringAdditions.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINetworkQueue.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571117.401084
+e281571118.005519
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINetworkQueue.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m281571117#281571118#0(0"0(0#0#108"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m4300885448#2437"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/ASINetworkQueue.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/ASINetworkQueue.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifyProxy.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.489518
+e281571118.660113
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifyProxy.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m281571118#281571118#0(0"0(0#0#107"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m4300885448#2435"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifyProxy.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifyProxy.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleAppDelegate.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571115.976848
+e281571116.359611
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleAppDelegate.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m281571115#281571116#0(0"0(0#0#119"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m4300885448#2459"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleAppDelegate.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleAppDelegate.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571116.035821
+e281571116.268694
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleViewController.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m281571116#281571116#0(0"0(0#0#122"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m4300885448#2465"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/AppNotifySampleViewController.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySampleViewController.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/NSData+Base64.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.069103
+e281571118.232256
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/NSData+Base64.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m281571118#281571118#0(0"0(0#0#106"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m4300885448#2433"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/NSData+Base64.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/NSData+Base64.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/Reachability.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571116.268877
+e281571116.898522
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/Reachability.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m281571116#281571116#0(0"0(0#0#105"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m4300885448#2431"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/Reachability.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SelectSoundViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.660241
+e281571118.929708
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SelectSoundViewController.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m281571118#281571118#0(0"0(0#0#118"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m4300885448#2457"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SelectSoundViewController.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SelectSoundViewController.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendNotificationViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.232369
+e281571118.489409
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendNotificationViewController.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m281571118#281571118#0(0"0(0#0#123"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m4300885448#2467"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendNotificationViewController.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendNotificationViewController.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendingViewController.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571118.929825
+e281571118.997416
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendingViewController.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m281571118#281571118#0(0"0(0#0#114"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m4300885448#2449"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Classes/SendingViewController.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/SendingViewController.o0#
+
+CCompileC build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/main.o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571115.975667
+e281571116.035707
+r1
+xCompileC
+xbuild/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/main.o
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m281571115#281571116#0(0"0(0#0#89"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m4300885448#2407"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -include /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/main.m -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib
+s281571110.656305
+e281571113.469458
+r1
+xCompileXIB
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib
+lSLF07#2@44"CompileXIB AppNotifySampleViewController.xib281571110#281571113#0(0"0(0#0#116"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib4300885448#648"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySampleViewController.nib /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySampleViewController.xib0#
+
+CCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib
+s281571110.654959
+e281571113.122115
+r1
+xCompileXIB
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib281571110#281571113#0(0"0(0#0#97"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib4300885448#610"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/MainWindow.nib /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/MainWindow.xib0#
+
+CCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib
+s281571113.956379
+e281571114.598935
+r1
+xCompileXIB
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib
+lSLF07#2@40"CompileXIB SelectSoundViewController.xib281571113#281571114#0(0"0(0#0#112"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib4300885448#640"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SelectSoundViewController.nib /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SelectSoundViewController.xib0#
+
+CCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib
+s281571113.122721
+e281571114.308121
+r1
+xCompileXIB
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib
+lSLF07#2@45"CompileXIB SendNotificationViewController.xib281571113#281571114#0(0"0(0#0#117"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib4300885448#650"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SendNotificationViewController.nib /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendNotificationViewController.xib0#
+
+CCompileXIB /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib
+s281571114.599251
+e281571114.960612
+r1
+xCompileXIB
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib
+lSLF07#2@26"CompileXIB SendingView.xib281571114#281571114#0(0"0(0#0#98"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib4300885448#612"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/SendingView.nib /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/SendingView.xib0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Icon.png Icon.png
+r0
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back.png Images/back.png
+s281571113.809056
+e281571113.854285
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back.png
+xImages/back.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/back.png Images/back.png281571113#281571113#0(0"0(0#0#98"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back.png4300885448#705"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back_down.png Images/back_down.png
+s281571113.764971
+e281571113.808945
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back_down.png
+xImages/back_down.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/back_down.png Images/back_down.png281571113#281571113#0(0"0(0#0#103"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back_down.png4300885448#715"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/back_down.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/back_down.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon.png icon.png
+s281571114.622834
+e281571114.665330
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon.png
+xicon.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/icon.png icon.png281571114#281571114#0(0"0(0#0#91"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/icon.png4300885448#698"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/icon.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon_small.png Images/icon_small.png
+s281565582.380005
+e281565582.424072
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon_small.png
+xImages/icon_small.png
+lSLF07#2@91"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/icon_small.png Images/icon_small.png281565582#281565582#0(0"0(0#0#104"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/icon_small.png4300885448#717"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/icon_small.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/icon_small.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register.png Images/register.png
+s281571113.473220
+e281571113.554034
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register.png
+xImages/register.png
+lSLF07#2@87"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/register.png Images/register.png281571113#281571113#0(0"0(0#0#102"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register.png4300885448#713"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register_down.png Images/register_down.png
+s281571113.618335
+e281571113.683904
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register_down.png
+xImages/register_down.png
+lSLF07#2@97"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/register_down.png Images/register_down.png281571113#281571113#0(0"0(0#0#107"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register_down.png4300885448#723"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/register_down.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/register_down.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send.png Images/send.png
+s281571113.900058
+e281571113.954238
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send.png
+xImages/send.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/send.png Images/send.png281571113#281571114#0(0"0(0#0#98"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send.png4300885448#705"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png Images/sendPushNotification.png
+s281571113.554140
+e281571113.616346
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png
+xImages/sendPushNotification.png
+lSLF07#2@111"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png Images/sendPushNotification.png281571113#281571113#0(0"0(0#0#114"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification.png4300885448#737"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png Images/sendPushNotification_down.png
+s281571113.684009
+e281571113.764690
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png
+xImages/sendPushNotification_down.png
+lSLF07#2@121"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png Images/sendPushNotification_down.png281571113#281571113#0(0"0(0#0#119"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification_down.png4300885448#747"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sendPushNotification_down.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sendPushNotification_down.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send_down.png Images/send_down.png
+s281571113.854389
+e281571113.899956
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send_down.png
+xImages/send_down.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/send_down.png Images/send_down.png281571113#281571113#0(0"0(0#0#103"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send_down.png4300885448#715"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/send_down.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/send_down.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound.png Images/sound.png
+s281571114.504104
+e281571114.622583
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound.png
+xImages/sound.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/sound.png Images/sound.png281571114#281571114#0(0"0(0#0#99"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound.png4300885448#707"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound.png0#
+
+CCopyPNGFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound_down.png Images/sound_down.png
+s281571114.327077
+e281571114.503995
+r1
+xCopyPNGFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound_down.png
+xImages/sound_down.png
+lSLF07#2@91"CopyPNGFile build/Release-iphoneos/AppNotifySample.app/sound_down.png Images/sound_down.png281571114#281571114#0(0"0(0#0#104"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound_down.png4300885448#717"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/sound_down.png /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/sound_down.png0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/Hammering.wav Hammering.wav
+s281571114.308222
+e281571114.333186
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/Hammering.wav
+xHammering.wav
+lSLF07#2@18"Copy Hammering.wav281571114#281571114#0(0"0(0#0#96"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Hammering.wav4300885448#606"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Hammering.wav /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/PillBottle.wav PillBottle.wav
+s281571114.309438
+e281571114.333315
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/PillBottle.wav
+xPillBottle.wav
+lSLF07#2@19"Copy PillBottle.wav281571114#281571114#0(0"0(0#0#97"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/PillBottle.wav4300885448#607"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/PillBottle.wav /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/README-LICENSE README-LICENSE
+s281571113.954354
+e281571113.965136
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/README-LICENSE
+xREADME-LICENSE
+lSLF07#2@19"Copy README-LICENSE281571113#281571114#0(0"0(0#0#97"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/README-LICENSE4300885448#607"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/README-LICENSE /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s281571110.613719
+e281571110.654858
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist281571110#281571110#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#601"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/Telephone.wav Telephone.wav
+s281571114.318815
+e281571114.333435
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/Telephone.wav
+xTelephone.wav
+lSLF07#2@18"Copy Telephone.wav281571114#281571114#0(0"0(0#0#96"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Telephone.wav4300885448#606"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Telephone.wav /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/WhistleFlute.wav WhistleFlute.wav
+s281571114.325013
+e281571114.334673
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/WhistleFlute.wav
+xWhistleFlute.wav
+lSLF07#2@21"Copy WhistleFlute.wav281571114#281571114#0(0"0(0#0#99"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/WhistleFlute.wav4300885448#609"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/WhistleFlute.wav /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/button-bg.jpg Images/button-bg.jpg
+s281571113.616444
+e281571113.624312
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/button-bg.jpg
+xImages/button-bg.jpg
+lSLF07#2@25"Copy Images/button-bg.jpg281571113#281571113#0(0"0(0#0#103"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/button-bg.jpg4300885448#613"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/button-bg.jpg /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/logo.jpg Images/logo.jpg
+s281571113.469562
+e281571113.480019
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/logo.jpg
+xImages/logo.jpg
+lSLF07#2@20"Copy Images/logo.jpg281571113#281571113#0(0"0(0#0#98"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/logo.jpg4300885448#608"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/logo.jpg /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CCpResource build/Release-iphoneos/AppNotifySample.app/nav-bg.jpg Images/nav-bg.jpg
+s281571113.471417
+e281571113.505166
+r1
+xCpResource
+xbuild/Release-iphoneos/AppNotifySample.app/nav-bg.jpg
+xImages/nav-bg.jpg
+lSLF07#2@22"Copy Images/nav-bg.jpg281571113#281571113#0(0"0(0#0#100"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/nav-bg.jpg4300885448#610"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/Images/nav-bg.jpg /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
+CGenerateDSYMFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app.dSYM /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample
+s281571125.083679
+e281571125.145503
+r1
+xGenerateDSYMFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app.dSYM
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample
+lSLF07#2@123"GenerateDSYMFile build/Release-iphoneos/AppNotifySample.app.dSYM build/Release-iphoneos/AppNotifySample.app/AppNotifySample281571125#281571125#0(0"0(0#0#141"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample4300885448#522"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app.dSYM0#
+
+CLd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample normal armv6
+s281571124.876145
+e281571125.083565
+r1
+xLd
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample
+xnormal
+xarmv6
+lSLF07#2@146"Link /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample281571124#281571125#0(0"0(0#0#0"4300885448#1361"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -L/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/../Gazaro/Classes/RedLaser -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -filelist /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/Objects-normal/armv6/AppNotifySample.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -lz.1.2.3 -framework AudioToolbox -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/AppNotifySample0#
+
+CProcessInfoPlistFile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Info.plist AppNotifySample-Info.plist
+s281571110.622048
+e281571110.645561
+r1
+xProcessInfoPlistFile
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Info.plist
+xAppNotifySample-Info.plist
+lSLF07#2@34"Process AppNotifySample-Info.plist281571110#281571110#0(0"0(0#0#109"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySample-Info.plist4300885448#776"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AppNotifySample-Info.plist -genpkginfo /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/ResourceRules.plist -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/Info.plist0#
+
+CProcessPCH /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch.gch AppNotifySample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281571114.960892
+e281571115.975544
+r1
+xProcessPCH
+x/var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch.gch
+xAppNotifySample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile AppNotifySample_Prefix.pch281571114#281571115#0(0"0(0#0#109"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySample_Prefix.pch4300885448#2251"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-generated-files.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-own-target-headers.hmap -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-all-target-headers.hmap -iquote /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample-project-headers.hmap -F/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/include -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources/armv6 -I/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/DerivedSources -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/AppNotifySample_Prefix.pch -o /var/folders/Q9/Q9FG25x3EMyY+Xzc1482VU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppNotifySample_Prefix-gzijncqhvgzuadfqbfsbsnrmcmls/AppNotifySample_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision" /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision
+s281571125.145659
+e281571125.148558
+r1
+xProcessProductPackaging
+x/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision
+lSLF07#2@209"ProcessProductPackaging "/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision" build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision281571125#281571125#0(0"0(0#0#150"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision4300885448#528"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/adammcnamara/Library/MobileDevice/Provisioning Profiles/13DCD210-05E0-4CA9-AB74-71700A1F4BE4.mobileprovision" -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent
+s281571125.154282
+e281571125.178420
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent
+lSLF07#2@203"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent281571125#281571125#0(0"0(0#0#171"/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent4300885448#576"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -APSEnvironment development -format xml -o /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/AppNotifySample.build/Release-iphoneos/AppNotifySample.build/AppNotifySample.xcent0#
+
+CTouch /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+s281571125.148638
+e281571125.154086
+r1
+xTouch
+x/Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app
+lSLF07#2@131"Touch /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app281571125#281571125#0(0"0(0#0#0"4300885448#362"    cd /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adammcnamara/Development/code/selectstart/appnotify/appnotify_iphone_client/build/Release-iphoneos/AppNotifySample.app0#
+
