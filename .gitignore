@@ -1,8 +1,0 @@
-.DS_Store
-*.swp
-
-build/
-
-*.pbxuser
-*.perspective
-*.perspectivev3
