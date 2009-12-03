@@ -104,8 +104,11 @@
 	if (selectedSound.text != kNoSound) {
 		sound = [NSString stringWithFormat:@"%@.wav", [selectedSound text]];
 	}
+
+	NSString *pushMsg = [[NSString alloc] initWithFormat:@"%@: %@", ((AppNotifySampleAppDelegate*)[UIApplication sharedApplication].delegate).deviceName,[message text], nil]; 
 	
-	[appDelegate sendPush:self deviceName:[deviceName text] message:[message text] badgeNumber:nil soundName:sound];
+	[appDelegate sendPush:self deviceName:[deviceName text] message:pushMsg badgeNumber:nil soundName:sound];
+	[pushMsg release];
 }
 
 - (IBAction) back:(id)sender
