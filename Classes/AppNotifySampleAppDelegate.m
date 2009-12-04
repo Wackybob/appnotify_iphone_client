@@ -54,6 +54,25 @@
 	selectSoundViewController.view.frame = viewController.view.frame;
 	selectSoundViewController.sendNotifyViewController = sendNotifyViewController;
 	selectSoundViewController.appDelegate = self;
+	
+	// Get device name from NSUserDefaults
+	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+	self.deviceName = [userDefaults stringForKey: kDefaultDevName];
+	[[viewController nameDisplay] setText: self.deviceName];
+	
+	//go directly to the send notification view if they have already registered a name
+	if (self.deviceName != nil) {
+		// get the view that's currently showing
+		UIView *currentView = viewController.view;
+		// get the the underlying UIWindow, or the view containing the current view view
+		UIView *theWindow = [currentView superview];
+		
+		UIView *newView = sendNotifyViewController.view;
+		
+		// remove the current view and replace with myView1
+		[currentView removeFromSuperview];
+		[theWindow addSubview:newView];
+	}
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)_deviceToken
@@ -63,11 +82,6 @@
 	
 	// Update View with the current token
 	[[viewController tokenDisplay] setText: self.deviceToken];
-	
-	// Get device name from NSUserDefaults
-	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-	self.deviceName = [userDefaults stringForKey: kDefaultDevName];
-	[[viewController nameDisplay] setText: self.deviceName];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
