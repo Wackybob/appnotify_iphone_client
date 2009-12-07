@@ -94,7 +94,7 @@
 		NSString *requestDataReqFields = [NSString stringWithFormat:@"\"names\":[\"%@\"], \"alert\":\"%@\", \"badge\":\"%@\"", deviceName, message, badgeNumber];
 		
 		NSString *requestData;
-		if (soundName == nil) {
+		if (soundName == nil || [soundName isEqualToString:@"No sound selected.wav"]) {
 			requestData = [NSString stringWithFormat:@"{%@}", requestDataReqFields];
 		} else {
 			requestData = [NSString stringWithFormat:@"{%@, \"sound\":\"%@\"}", requestDataReqFields, soundName];
