@@ -67,6 +67,15 @@
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request
 {
+	//Are you looking here because you've received an 'Authentication Needed' error in the log?
+	// 1- Check the log to see if this is the case
+	// 2- If it is, then you have to update your credentials to talk to the AppNotify server.
+	//    "How do I do this?" you may ask?  Well, we provide AppNotify with the credentials it needs
+	//    via basic authentication.  In this sample application, the username and password are in the
+	//    AppNotifyProxy.h.
+	//						(these are sample values!  log into admin.appnotify.com for your application's real values)
+	//    Look for: #define kApplicationId @"823d5020-abda-012c-5049-12313b022d84"
+	//              #define kApplicationSecret @"800hi3g7irxlrt8r9zpsh"
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 	NSError *error = [request error];
 	UIAlertView *someError = [[UIAlertView alloc] initWithTitle: 
